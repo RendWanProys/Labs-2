@@ -1,0 +1,14 @@
+C:\Users\1\Desktop\raulgab22\bin\Debug\net8.0\raulgab22.exe
+C:\Users\1\Desktop\raulgab22\bin\Debug\net8.0\raulgab22.deps.json
+C:\Users\1\Desktop\raulgab22\bin\Debug\net8.0\raulgab22.runtimeconfig.json
+C:\Users\1\Desktop\raulgab22\bin\Debug\net8.0\raulgab22.dll
+C:\Users\1\Desktop\raulgab22\bin\Debug\net8.0\raulgab22.pdb
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.AssemblyInfo.cs
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.dll
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\refint\raulgab22.dll
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.pdb
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\raulgab22.genruntimeconfig.cache
+C:\Users\1\Desktop\raulgab22\obj\Debug\net8.0\ref\raulgab22.dll
