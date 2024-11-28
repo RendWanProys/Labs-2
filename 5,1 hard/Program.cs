@@ -1,11 +1,3 @@
-﻿//1) Вводим данные
-//2) Создаем массив
-//3) Проверка на 1 = 1 ... 5 = 5
-//4) if true, else false.
-//Console.WriteLine("Введите слово:");
-//char Console.ReadLine();
-//char[] mas = new char[5];
-
 class Program
 {
     static void Main(string[] mas)
