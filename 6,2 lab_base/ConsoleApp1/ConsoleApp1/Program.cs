@@ -1,5 +1,4 @@
-﻿using ClassLibrary1; // Не забудьте добавить using для пространства имен
-
+﻿using ClassLibrary1;
 public class MainProgram
 {
     public static void Main(string[] args)
@@ -15,11 +14,9 @@ public class MainProgram
         };
 
         Console.WriteLine("Исходная матрица:");
-        MatrixOperations.PrintMatrix(myMatrix); // Вызов функции вывода из библиотеки
-
-        MatrixOperations.SwapDiagonals(myMatrix); // Вызов функции обмена из библиотеки
-
+        MatrixOperations.PrintMatrix(myMatrix);
+        MatrixOperations.SwapDiagonals(myMatrix);
         Console.WriteLine("\nМатрица после обмена диагоналей:");
-        MatrixOperations.PrintMatrix(myMatrix); // Вызов функции вывода из библиотеки
+        MatrixOperations.PrintMatrix(myMatrix);
     }
 }
