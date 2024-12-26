@@ -1,21 +1,15 @@
-﻿public class Program
-{
-    public static void Main(string[] args)
+namespace ConsoleApp
     {
-        while (true)
+        class Program
         {
-            Console.WriteLine("Введите значения для нового объекта (или 'exit' для завершения):");
-            string input = Console.ReadLine();
-            if (input.ToLower() == "exit")
-                break;
-            double a = InputHelper.GetDoubleFromConsole("Введите значение A: ");
-            double b = InputHelper.GetDoubleFromConsole("Введите значение B: ");
-            MyObject currentObject = new MyObject(a, b);
-
-            double result = currentObject.CalculateSumOfSquares();
-            Console.WriteLine($"A: {currentObject.A}, B: {currentObject.B}, A^2 + B^2: {result}\n");
+            static void Main(string[] args)
+            {
+                double a = InputHelper.GetDoubleFromConsole("Введите значение a:");
+                double b = InputHelper.GetDoubleFromConsole("Введите значение b:");
+                MyObject obj = new MyObject(a, b);
+                double result = obj.CalculateSumOfSquares();
+                Console.WriteLine($"Сумма квадратов a^2 + b^2 = {result}");
+            }
         }
-        Console.WriteLine("\nНажмите любую клавишу для выхода...");
-        Console.ReadKey();
     }
-}
+    
