@@ -1,16 +1,17 @@
-﻿public class MyObject
+namespace ConsoleApp
 {
-    public double A { get; set; }
-    public double B { get; set; }
-
-    public MyObject(double a = 0, double b = 0)
+    public class MyObject
     {
-        A = a;
-        B = b;
-    }
-
-    public double CalculateSumOfSquares()
-    {
-        return A * A + B * B;
+        public double A { get; set; }
+        public double B { get; set; }
+        public MyObject(double a, double b)
+        {
+            A = a;
+            B = b;
+        }
+        public double CalculateSumOfSquares()
+        {
+           return A * A + B * B;
+        }
     }
 }
