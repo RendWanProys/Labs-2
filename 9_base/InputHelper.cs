@@ -1,18 +1,11 @@
-﻿public static class InputHelper
+namespace ConsoleApp
 {
-    public static double GetDoubleFromConsole(string prompt)
+    public static class InputHelper
     {
-        while (true)
+        public static double GetDoubleFromConsole(string message)
         {
-            Console.Write(prompt);
-            if (double.TryParse(Console.ReadLine(), out double result))
-            {
-                return result;
-            }
-            else
-            {
-                Console.WriteLine("Некорректный ввод");
-            }
+            Console.WriteLine(message);
+            return double.Parse(Console.ReadLine());
         }
     }
 }
