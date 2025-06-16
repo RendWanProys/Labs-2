@@ -1,0 +1,14 @@
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\bin\Debug\Lab12_v18.exe.config
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\bin\Debug\Lab12_v18.exe
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\bin\Debug\Lab12_v18.pdb
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.csproj.AssemblyReference.cache
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\MainWindow.baml
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\MainWindow.g.cs
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\App.g.cs
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18_MarkupCompile.cache
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.g.resources
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.Properties.Resources.resources
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.csproj.GenerateResource.cache
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.csproj.CoreCompileInputs.cache
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.exe
+C:\Users\FockCigger\source\repos\Lab12_v18\Lab12_v18\obj\Debug\Lab12_v18.pdb

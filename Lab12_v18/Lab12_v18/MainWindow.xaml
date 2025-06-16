@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfProgrammers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF Programmers" Height="450" Width="600">
+    <Grid>
+        <ListBox x:Name="ProgrammersListBox" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Фамилия:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding LastName}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Имя:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding FirstName}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Отчество:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding MiddleName}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Пол:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Gender}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="Национальность:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Nationality}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" Text="Дата рождения:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding BirthDate, StringFormat=dd.MM.yyyy}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="Образование:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding Education}" Margin="0,0,0,0"/>
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="Номер телефона:" FontWeight="Bold" Margin="0,0,5,0"/>
+                        <TextBlock Grid.Row="7" Grid.Column="1" Text="{Binding PhoneNumber}" Margin="0,0,0,0"/>
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
